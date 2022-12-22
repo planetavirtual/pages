@@ -3,8 +3,18 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1"
     <title></title>
+    <script>
+        console.log(
+            'debug parent',
+            window.parent.location,
+            'debug referer',
+            document.referrer,
+            'debug ancestor',
+            window.location.ancestorOrigins[0]            
+        );
+    </script>
 </head>
 <body>
-    <iframe src="https://app.appsmith.com/app/dashboard/gastos-63991fa0038c74195c0abc86?embed=true" height="700" width="100%"></iframe>
+    Isso vai ser um formulario
 </body>
 </html>
